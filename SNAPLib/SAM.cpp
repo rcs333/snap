@@ -961,7 +961,7 @@ SAMFormat::writeHeader(
 		}
     }
 #ifndef SKIP_SQ_LINES
-    if ((context.header == NULL || ! context.headerMatchesIndex) && context.genome != NULL && !omitSQLines) {
+    if ( 1== 2) {
         // Write an @SQ line for each chromosome / contig in the genome
         const Genome::Contig *contigs = context.genome->getContigs();
         int numContigs = context.genome->getNumContigs();
